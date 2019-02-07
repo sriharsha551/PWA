@@ -1,0 +1,101 @@
+#details{
+    margin:4%;
+    border-radius: 2%;
+    padding: 2%;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: aquamarine;
+    width: 25%;
+    height: 75%;
+}
+
+body{
+    display: flex;
+    background-image: url(back.jpg);
+    background-size: 100%;
+}
+#academics{
+    border: 2px solid black;
+    background-color: khaki;
+    padding: 2%;
+    box-shadow: 2px;
+    margin: 4%;
+    width: 65%;
+    height:95%;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px;
+}
+img{
+    margin: 5%;
+    width: 75%;
+    height: 40%;
+}
+table,th,td{
+    border : 2px solid black;
+}
+
+
+/*media view*/
+@media screen and (max-width:480px) {
+body{
+    background-color: rgb(12, 207, 241);
+    background-image: none;
+    display: inline-block;
+    width: 90%;
+}
+#details{
+    margin:4%;
+    border-radius: 2%;
+    padding: 2%;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: none;
+    background-color: rgb(10, 78, 56);
+    width: 92%;
+    height: auto;
+}
+#academics{
+    border: 2px solid black;
+    background-color: rgb(207, 241, 239);
+    padding: 2%;
+    box-shadow: 2px;
+    margin: 4%;
+    box-shadow: none;
+    width: 92%;
+    height:auto;
+    border-radius: 2%;
+}
+}
+
+
+@media screen and (min-width:481px) and (max-width: 1024px) {
+body{
+    background-color: rgb(14, 69, 78);
+    background-image: none;
+    display: flex;
+    width:90%;
+}
+#details{
+    margin:4%;
+    border-radius: 2%;
+    padding: 2%;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: none;
+    background-color: rgb(226, 121, 0);
+    width: 92%;
+    height: auto;
+}
+#academics{
+    border: 2px solid black;
+    background-color: rgb(173, 161, 166);
+    padding: 2%;
+    box-shadow: 2px;
+    margin: 4%;
+    box-shadow: none;
+    width: 92%;
+    height:auto;
+    border-radius: 2%;
+}
+}

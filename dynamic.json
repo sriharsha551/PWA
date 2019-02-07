@@ -1,0 +1,37 @@
+{
+    "details": {
+        "img": "man.jpg",
+        "name": "Sri Harsha",
+        "roll": "17A31A0551",
+        "place": "Rajahmundry"
+    },
+    "academics": {
+        "Co": "Career Objective",
+        "info": "To get job in google"
+    },
+    "edu": [
+        {
+            "s": "1",
+            "institute": "pratibha",
+            "degree": "ssc",
+            "CGPA":"9.5",
+            "year": "2015"
+        },
+        {
+            "s": "2",
+            "institute": "pratibha",
+            "degree": "Inter",
+            "CGPA":"98.6%",
+            "year": "2017"
+        },
+        {
+            "s": "3",
+            "institute": "pragati",
+            "degree": "B.Tech",
+            "CGPA":"9.4",
+            "year": "2019"
+        }
+    ],
+    "languages":["telugu","hindi"],
+    "skills":["C","C++","python","Java","ML"]
+}

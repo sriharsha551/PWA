@@ -1,0 +1,15 @@
+Indexdb:
+1. compatibility checking of browser.
+2. creating indexdb.
+3. creating the object store in the database.
+4. performing the CURD operations.
+
+Service worker:
+1. Registering service worker.
+2. Installing the service worker.
+3. Storing the cache with the help of fetch api.
+4. Updating the service worker.
+
+Manifest file:
+1. Creating the manifest icon with the help of fevicol generator.
+2. Integrating our icons to the HTML page. 
